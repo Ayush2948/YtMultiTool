@@ -22,18 +22,14 @@ Emergency Vehicle Detection employs both audio and video cues to ensure the cert
 - Image Classification algorithm: DenseNet-169
 - Tech Stack: Python, PyQT, OpenCV, Streamlit
 
-## Frontend Development
+### Frontend Development
 The frontend of the ClearPath project will be developed using React.js to provide a user-friendly interface for interacting with the traffic management system.
 
 ## Team Members
-- **Samarth Asthana**
-  - [LinkedIn](https://www.linkedin.com/in/samarth-asthana/)
+- **Samarth Asthana** [LinkedIn](https://www.linkedin.com/in/samarth-asthana/)
 
-- **Arihant Bharadwaj**
-  - [LinkedIn](https://www.linkedin.com/in/arihant-bharadwaj-434b22226/)
+- **Arihant Bharadwaj** [LinkedIn](https://www.linkedin.com/in/arihant-bharadwaj-434b22226/)
 
-- **Ayush Patil**
-  - [LinkedIn](https://www.linkedin.com/in/ayushp2948/)
+- **Ayush Patil** [LinkedIn](https://www.linkedin.com/in/ayushp2948/)
 
-- **Kartik Agarwal**
-  - [LinkedIn](https://www.linkedin.com/in/kartikhustles/)
+- **Kartik Agarwal** [LinkedIn](https://www.linkedin.com/in/kartikhustles/)
