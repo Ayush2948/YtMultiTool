@@ -1,9 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import About from "./pages/About";
+import Contact from "./pages/Contact.js";
 import Dashboard from "./pages/Dashboard";
 import { useEffect, useState } from "react";
 import PrivateRoute from "./components/PrivateRoute";
@@ -25,6 +28,12 @@ function App() {
           path="/signup"
           element={<Signup setIsLoggedIn={setIsLoggedIn} />}
         />
+        <Route path="/about" element={<About isLoggedIn={isLoggedIn} />} />
+        <Route path="/contact" element={<Contact isLoggedIn={isLoggedIn} />} />
+        <Route
+          path="/contact"
+          element={<Signup setIsLoggedIn={setIsLoggedIn} />}
+        />
         <Route
           path="/dashboard"
           element={
@@ -34,6 +43,7 @@ function App() {
           }
         />
       </Routes>
+      <Footer isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
     </div>
   );
 }
