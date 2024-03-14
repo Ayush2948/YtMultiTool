@@ -3,9 +3,9 @@ import HeroGIF from "../components/HeroGIF";
 
 const Home = ({ isLoggedIn }) => {
   return (
-    <div className="flex justify-center items-center h-full mx-4">
+    <div className="flex justify-center items-center h-full mx-8">
       <div className="mx-4">
-        <div className="flex justify-center text-3xl font-bold my-4">
+        <div className="flex mx-4 text-3xl font-bold my-4">
           The Green Light for Emergency Response Efficiency
         </div>
         <div className="flex justify-center text-xl font-medium my-4 mx-4">

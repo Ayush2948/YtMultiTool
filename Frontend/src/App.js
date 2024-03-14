@@ -10,6 +10,7 @@ import Contact from "./pages/Contact.js";
 import Dashboard from "./pages/Dashboard";
 import { useEffect, useState } from "react";
 import PrivateRoute from "./components/PrivateRoute";
+import Traffic from "./pages/Traffic.js";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -24,6 +25,7 @@ function App() {
           path="/login"
           element={<Login setIsLoggedIn={setIsLoggedIn} />}
         />
+
         <Route
           path="/signup"
           element={<Signup setIsLoggedIn={setIsLoggedIn} />}
@@ -39,6 +41,14 @@ function App() {
           element={
             <PrivateRoute isLoggedIn={isLoggedIn}>
               <Dashboard />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/traffic"
+          element={
+            <PrivateRoute isLoggedIn={isLoggedIn}>
+              <Traffic />
             </PrivateRoute>
           }
         />
