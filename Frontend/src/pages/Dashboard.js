@@ -6,7 +6,7 @@ import VideoUploader from "../components/VideoUploadForm";
 const Dashboard = () => {
   return (
     <div className="flex justify-center items-center text-3xl h-full">
-      {/* <VideoUploader /> */}
+      <VideoUploader />
       <Link to="/traffic">
         <CoolButton />
       </Link>
